@@ -1,81 +1,115 @@
+/* global settings*/
+
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+/* :root { 
+    --primary: #0504aa; 
+    --secondary: #B8B8B7; 
+    --tertiary: #6CA0E3; 
+    --red1: #FF0000; 
+    --red2: #dd0547;
+    --red3: #93032f;
+    --blue2: #006ee6; ////
+    --blue1: #4169e1; //royal blue//
+    --blue3: #004999; //mid blue//
+
+}  */
+
+// user interface //
+.banner { 
+    background-color: #741741;
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+  } 
 
 .weather-search{
+    border: #006ee6;
+    max height; 50em;
+    width: 85%;
+    min-height:50px;  
     border: solid black 5px;
     max height; 40em;
-    
+    background-color: #741741;
 }
 #form.heading {
     font-size: 60px;
     font-color: purple;
+    border: solid red 3px;
+    background-color: #741741;
 }
 #today{
-    border: green;
+    background-color: #9990E3;
     font-color: red bold;
-
+    border: solid red 3px;
 }
 #forecast {
-    border: solid yellow;
+    border: solid red 3px;
+    background-color: #654283;
 }
 .rowmt3 {
     border: purple;
     font-color: purple;
-    border: solid red 20px;
+    border: solid red 3px;
     max-width: 100%;
+    background-color: #6CA343;
 }
 .searchInput {
     border: purple;
     font-color: purple;
-    border: solid red 20px;
+    border: solid red 3px;
     max-width: 100%;   
+    background-color: #6CA0E3;
 }
-submit {
-    border: solid red 20px;
+.submit {
+    border: solid red 3px;
     max-width: 100%;  
 }
 .weather-hr{
-    border: solid red 20px;
+    border: solid red 3px;
     max-width: 100%;
+    background-color: #6CA0E3;
 }
-.weather-search{
-    min-height:50px; 
-    /* min height: 50px */
-    border: solid blue 50px
-}
-#listgroup{
-    border: purple;
-    font-color: purple;  
+
+.listgroup {
+    border: purple 30px;
+    font-color: purple; 
+    margin: yellow 10px;  
+    border: solid red 3px;
 }
 p {
-    font-family: sans-serif, poppins;
+    /* font-family: sans-serif, poppins; */
     font-size: 15px;
-    font-color: White;
+    font-color: pink;
     font: strong;
+    border: #93032f solid 4px;
 }
 .parentContainer {
     display: flex;
-    background-color: lightgrey;
+
+    border: #93032f solid 20px;
+    /* border: purple 30px; */
+    height: flex;
     padding: 20px;
     margin: 20px;
-    border: green solid 20px;
-    height: flex;
     width: auto;
 }
 .flexChild {
-    background-color: navy;
-    padding: 10px;
-    font-family: poppins;
+    background-color: #006ee6;
+    border: #6CA0E3;
     text-align: auto;
     font-color: white;
-    margin: 10px;
+    margin: grey 10px;
     height: 250px;
 }
 .flexImage {
     display: flex;
     height: auto;
     width: auto;
-    border: royalblue solid 10px;
-    margin: yellow 10px;
-    padding: cyan 10px;
+    border: #6CA0E3
 }
 /* #today
 border; solid black 5px;
