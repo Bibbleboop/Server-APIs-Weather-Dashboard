@@ -23,10 +23,10 @@ $("check").text(today.format("D MMM YYYY"));
 
 // let queryURL = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={APIkey}";
 // let queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?lat={lat}&lon={lon}&cnt={cnt}&appid={API key}"
-let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "d23c1342fed6bb5821f38a930fb0894b";
+let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "=d23c1342fed6bb5821f38a930fb0894b";
 let url = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name"
 //https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
-
+// =06191c32d8ecb0ee651d31bd50188fd1
 let cities = []
 //store data for cities searched 
 let loadcities = function() {
