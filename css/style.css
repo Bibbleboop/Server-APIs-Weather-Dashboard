@@ -2,8 +2,9 @@
 
 * {
     margin: 5px;
-    padding: 5px;
+    /* padding: 5px; */
     font-family: sans-serif;
+    background-color: #6CA0E3;
 }
 /* :root { 
     --primary: #0504aa; 
@@ -29,7 +30,7 @@
 .weather-search{
     border: #006ee6;
     max height; 50em;
-    width: 85%;
+    width: 55%;
     min-height:50px;  
     border: solid black 5px;
     max height; 40em;
@@ -40,45 +41,47 @@
     font-color: purple;
     border: solid red 3px;
     background-color: #741741;
+    max-width: 55%;
 }
 #today{
     background-color: #9990E3;
     font-color: red bold;
     border: solid red 3px;
+    max-width: 55%;
 }
 #forecast {
     border: solid red 3px;
     background-color: #654283;
+    max-width: 55%;
 }
 .rowmt3 {
     border: purple;
     font-color: purple;
     border: solid red 3px;
-    max-width: 100%;
+    max-width: 55%;
     background-color: #6CA343;
 }
 .searchInput {
     border: purple;
     font-color: purple;
     border: solid red 3px;
-    max-width: 100%;   
+    max-width: 55%;   
     background-color: #6CA0E3;
 }
 .submit {
     border: solid red 3px;
-    max-width: 100%;  
+    max-width: 50%;  
 }
 .weather-hr{
     border: solid red 3px;
-    max-width: 100%;
+    max-width: 50%;
     background-color: #6CA0E3;
 }
 
 .listgroup {
-    border: purple 30px;
-    font-color: purple; 
-    margin: yellow 10px;  
+    font-color: black; 
     border: solid red 3px;
+    max-width: 50%;
 }
 p {
     /* font-family: sans-serif, poppins; */
@@ -86,24 +89,24 @@ p {
     font-color: pink;
     font: strong;
     border: #93032f solid 4px;
+    max-width: 50%;
 }
 .parentContainer {
     display: flex;
-
-    border: #93032f solid 20px;
+    max-width: 50%;
+    border: #93032f solid 2px;
     /* border: purple 30px; */
     height: flex;
-    padding: 20px;
-    margin: 20px;
     width: auto;
 }
 .flexChild {
     background-color: #006ee6;
-    border: #6CA0E3;
+    border: #6CA0E3 60px;
     text-align: auto;
-    font-color: white;
+    font-color: navy bold;
     margin: grey 10px;
     height: 250px;
+    max-width: 50%;
 }
 .flexImage {
     display: flex;
@@ -111,10 +114,10 @@ p {
     width: auto;
     border: #6CA0E3
 }
-/* #today
+today {
 border; solid black 5px;
 max height; 40cm; */
-
+}
 /* .forecastCard{
     border: 1px solid lightslategray;
     border-radius: 10px;
