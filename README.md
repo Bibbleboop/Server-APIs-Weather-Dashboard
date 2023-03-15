@@ -1,7 +1,7 @@
 # Server-APIs-Weather-Dashboard
 Server APIs: Weather Dashboard Challenge 8
 OpenWeatherMap!
-
+<img src="./images/readme ss.png">
 API key:
 - Your API key is 06191c32d8ecb0ee651d31bd50188fd1
 - Within the next couple of hours, it will be activated and ready to use
