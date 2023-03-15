@@ -24,11 +24,16 @@ $("check").text(today.format("D MMM YYYY"));
 // var weatherApiKey = "getanewapikey";
 // let queryURL = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={APIkey}";
 // let queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?lat={lat}&lon={lon}&cnt={cnt}&appid={API key}"
-// let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "=d=5d0156f4b7675690f96d739cb4949576";
-let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=$"london"&limit=1&appid=$"APIKey"`;
+// let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "=d=5d0156f4b7675690f96d739cb4949576";//
+
+
+// let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=$"london"&limit=1&appid=$"APIKey"`;
 //https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 // =06191c32d8ecb0ee651d31bd50188fd1
 // let apiURL = ${"https://api.openweathermap.org/data/2.5/weather?q="}/geo/1.0/direct?q=${london}&limit=5&appid=${"5d0156f4b7675690f96d739cb4949576"};
+
+let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=$"city"&limit=1&appid=${APIkey}`;
+
 let cities = []
 //store data for cities searched 
 let loadcities = function() {
