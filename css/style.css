@@ -4,7 +4,7 @@
     margin: 5px;
     /* padding: 5px; */
     font-family: sans-serif;
-    background-color: #6CA0E3;
+    /* background-color: #6CA0E3; */
 }
 /* :root { 
     --primary: #0504aa; 
@@ -21,7 +21,7 @@
 
 // user interface //
 .banner { 
-    background-color: #741741;
+    /* background-color: #741741; */
     color: white; 
     padding: 20px; 
     text-align: center;
@@ -34,13 +34,13 @@
     min-height:50px;  
     border: solid black 5px;
     max height; 40em;
-    background-color: #741741;
+    /* background-color: #741741; */
 }
 #form.heading {
     font-size: 60px;
     font-color: purple;
     border: solid red 3px;
-    background-color: #741741;
+    /* background-color: #741741; */
     max-width: 55%;
 }
 #today{
@@ -51,7 +51,6 @@
 }
 #forecast {
     border: solid red 3px;
-    background-color: #654283;
     max-width: 55%;
 }
 .rowmt3 {
@@ -59,7 +58,6 @@
     font-color: purple;
     border: solid red 3px;
     max-width: 55%;
-    background-color: #6CA343;
 }
 .searchInput {
     border: purple;
@@ -88,14 +86,13 @@ p {
     font-size: 15px;
     font-color: pink;
     font: strong;
-    border: #93032f solid 4px;
+    border: #93032f solid 1px;
     max-width: 50%;
 }
 .parentContainer {
     display: flex;
     max-width: 50%;
     border: #93032f solid 2px;
-    /* border: purple 30px; */
     height: flex;
     width: auto;
 }
@@ -118,9 +115,9 @@ today {
 border; solid black 5px;
 max height; 40cm; */
 }
-/* .forecastCard{
+.forecastCard{
     border: 1px solid lightslategray;
     border-radius: 10px;
     margin-left: 15px;
     margin-bottom: 6px;
-} */
+} 
