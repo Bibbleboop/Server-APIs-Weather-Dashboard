@@ -16,17 +16,19 @@ let container = document.querySelector(".parentContainer")
 // let.querySelector(".listgroup")
 
 // Valid API Key for relevant URL // let APIKEY = "d23c1342fed6bb5821f38a930fb0894b";
-let APIkey = "d23c1342fed6bb5821f38a930fb0894b";
+let APIkey = "5d0156f4b7675690f96d739cb4949576";
 
 let today = moment();
 $("check").text(today.format("D MMM YYYY"));
-
+// var weatherApiRootUrl = "https://api.openweathermap.org";
+// var weatherApiKey = "getanewapikey";
 // let queryURL = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={APIkey}";
 // let queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?lat={lat}&lon={lon}&cnt={cnt}&appid={API key}"
-let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "=d23c1342fed6bb5821f38a930fb0894b";
-let url = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name"
+// let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" & "city name" & "=d=5d0156f4b7675690f96d739cb4949576";
+let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=$"london"&limit=1&appid=$"APIKey"`;
 //https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 // =06191c32d8ecb0ee651d31bd50188fd1
+// let apiURL = ${"https://api.openweathermap.org/data/2.5/weather?q="}/geo/1.0/direct?q=${london}&limit=5&appid=${"5d0156f4b7675690f96d739cb4949576"};
 let cities = []
 //store data for cities searched 
 let loadcities = function() {
@@ -53,15 +55,18 @@ let city = searchanswer.value.trim();
 
 }
 // Fetch with url data
-fetch(queryURL)
-    // Store retrieved data inside of ab object called response
-.then(function(response) {
-//if response is ok
-if (response.ok) {
-    response.json().then(function(data) {
-        dashboard(data, city); 
-    }
-    )}
+fetch(apiUrl)
+  // Store retrieved data inside of ab object called response
+.then(function (response) {
+    //if response is ok
+
+    return response.json();
+})
+.then(function (data) {
+    console.log(data);
+})
+.catch(function (err) {
+    console.error(err);
 });
 
     //Create new button for city 
